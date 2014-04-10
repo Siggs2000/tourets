@@ -6,7 +6,7 @@ module TouRETS
     SEARCH_QUERY_DEFAULTS = {}
     # This class searches for ResidentialProperty, Condo, SingleFamily, Rental
     # Some MLS use "1", some use :RES... Will need to decide which way is to be used.
-    SEARCH_CONFIG_DEFAULTS = {:search_type => :Agent, :class => "1"}
+    SEARCH_CONFIG_DEFAULTS = {:search_type => :Agent}
     
     class << self
       
